@@ -34,7 +34,7 @@ appConfig:
     hideSettings: false
     hideFooter: true
   auth:
-    enableGuestAccess: false
+    enableGuestAccess: true
     users:
       - user: ''
         hash: ''
@@ -51,7 +51,7 @@ appConfig:
   preventLocalSave: false
   disableConfiguration: false
   disableConfigurationForNonAdmin: false
-  allowConfigEdit: false
+  allowConfigEdit: true
   enableServiceWorker: false
   disableContextMenu: false
   disableUpdateChecks: false
