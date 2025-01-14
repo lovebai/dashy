@@ -33,19 +33,6 @@ appConfig:
     hideSearch: false
     hideSettings: false
     hideFooter: true
-  auth:
-    enableGuestAccess: true
-    users:
-      - user: ''
-        hash: ''
-        type: normal
-    enableOidc: false
-    enableHeaderAuth: false
-    headerAuth:
-      userHeader: REMOTE_USER
-      proxyWhitelist: []
-    enableKeycloak: false
-    oidc: {}
   showSplashScreen: false
   preventWriteToDisk: false
   preventLocalSave: false
