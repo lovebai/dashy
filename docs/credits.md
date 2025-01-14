@@ -69,6 +69,13 @@
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/arcestia">
+            <img src="https://avatars.githubusercontent.com/u/7936962?v=4" width="80;" alt="arcestia"/>
+            <br />
+            <sub><b>Laurensius Jeffrey</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/vlad-tim">
             <img src="https://avatars.githubusercontent.com/u/11474041?u=eee43705b54d2ec9f51fc4fcce5ad18dd17c87e4&v=4" width="80;" alt="vlad-tim"/>
             <br />
@@ -81,20 +88,13 @@
             <br />
             <sub><b>HeliXZz</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/patvdv">
             <img src="https://avatars.githubusercontent.com/u/12430107?u=e8911c2fb91af4d30432f76da8c40927b2830bd7&v=4" width="80;" alt="patvdv"/>
             <br />
             <sub><b>Patrick Van Der Veken</b></sub>
-        </a>
-    </td></tr>
-<tr>
-    <td align="center">
-        <a href="https://github.com/MioOgbeni">
-            <img src="https://avatars.githubusercontent.com/u/24291977?u=4178230d1acd14b41ca7f4eaf9b96811045167f0&v=4" width="80;" alt="MioOgbeni"/>
-            <br />
-            <sub><b>Tomáš Novák</b></sub>
         </a>
     </td>
     <td align="center">
@@ -455,8 +455,8 @@
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/Tuzi555">
-            <img src="https://avatars.githubusercontent.com/u/62188066?v=4" width="80;" alt="Tuzi555"/>
+        <a href="https://github.com/jtuzar">
+            <img src="https://avatars.githubusercontent.com/u/62188066?v=4" width="80;" alt="jtuzar"/>
             <br />
             <sub><b>Jakub Tuzar</b></sub>
         </a>
