@@ -401,7 +401,7 @@ sections:
       - &ref_40
         title: Free TV
         icon: hl-rumble
-        url: https://y.yourmather.eu.org/
+        url: https://tv.ucds.me/
         target: newtab
         id: 0_137659_freetv
       - &ref_41
@@ -434,6 +434,11 @@ sections:
         icon: favicon
         url: https://www.6umkq9b.com/
         id: 6_137659_
+      - &ref_47
+        title: SyncTV
+        icon: favicon
+        url: https://tv.obai.cc/web/
+        id: 7_137659_synctv
     filteredItems:
       - *ref_40
       - *ref_41
@@ -442,6 +447,7 @@ sections:
       - *ref_44
       - *ref_45
       - *ref_46
+      - *ref_47
   - name: 其他
     icon: far fa-edit
     displayData:
@@ -451,26 +457,32 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_47
+      - &ref_48
         title: 彼岸壁纸
         icon: favicon
         url: http://www.netbian.com/
         id: 0_41036_
-      - &ref_48
+      - &ref_49
         title: censys
         icon: favicon
         url: https://search.censys.io/
         id: 1_41036_censys
-      - &ref_49
+      - &ref_50
         title: 蓝信
         icon: https://m.obai.cc/static/images/favicon/favicon-default-16x16.png
         url: https://m.obai.cc/
         statusCheck: true
         id: 2_41036_
+      - &ref_51
+        title: Cloudfalre
+        icon: favicon
+        url: https://cloudflare.com/
+        id: 3_41036_cloudfalre
     filteredItems:
-      - *ref_47
       - *ref_48
       - *ref_49
+      - *ref_50
+      - *ref_51
   - name: Ai
     icon: far fa-comments-alt
     displayData:
@@ -480,37 +492,37 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_50
+      - &ref_52
         title: ChatGpt
         icon: hl-chatgpt
         url: https://chatgpt.com/
         id: 0_170_chatgpt
-      - &ref_51
+      - &ref_53
         title: DuckDuckGo AI
         icon: hl-duckduckgo
         url: https://duckduckgo.com/?q=DuckDuckGo&ia=chat
         id: 1_170_duckduckgoai
-      - &ref_52
+      - &ref_54
         title: Gemini
         icon: favicon
         url: https://gemini.google.com/
         id: 2_170_gemini
-      - &ref_53
+      - &ref_55
         title: 百度AI
         icon: favicon
         url: https://chat.baidu.com/
         id: 3_170_ai
-      - &ref_54
+      - &ref_56
         title: DuckDuckGo Ai Proxy
         icon: hl-duckduckgo
         url: https://2.19981115.xyz/https://duckduckgo.com/?q=DuckDuckGo&ia=chat
         id: 4_170_duckduckgoaiproxy
     filteredItems:
-      - *ref_50
-      - *ref_51
       - *ref_52
       - *ref_53
       - *ref_54
+      - *ref_55
+      - *ref_56
   - name: IP Tools
     icon: far fa-clipboard-list
     displayData:
@@ -520,58 +532,56 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_55
+      - &ref_57
         title: WHOER
         icon: favicon
         url: https://whoer.net/zh
         id: 0_714_whoer
-      - &ref_56
+      - &ref_58
         title: MY IP
         icon: favicon
         url: https://www.whatismyip.com.tw/
         id: 1_714_myip
-      - &ref_57
+      - &ref_59
         title: IPLeak
         icon: favicon
         url: https://ipleak.net/
         id: 2_714_ipleak
-      - &ref_58
+      - &ref_60
         title: ip.im
         icon: favicon
         url: https://ip.im/
         id: 3_714_ipim
-      - &ref_59
+      - &ref_61
         title: ip.sb
         icon: favicon
         url: https://ip.sb/
         id: 4_714_ipsb
-      - &ref_60
+      - &ref_62
         title: CheckIp
         icon: far fa-desktop
         url: https://checkip.amazonaws.com/
         id: 5_714_checkip
-      - &ref_61
+      - &ref_63
         title: ifconfig.me
         icon: far fa-laptop
         url: https://ifconfig.me/
         id: 6_714_ifconfigme
-      - &ref_62
+      - &ref_64
         title: icanhazip
         icon: far fa-mobile
         url: http://icanhazip.com/
         id: 7_714_icanhazip
-      - &ref_63
+      - &ref_65
         title: ifconfig.co
         icon: far fa-webcam
         url: https://ifconfig.co
         id: 8_714_ifconfigco
-      - &ref_64
+      - &ref_66
         title: IP Leak
         url: https://ipv4.ping0.cc/ipleak
         id: 9_714_ipleak
     filteredItems:
-      - *ref_55
-      - *ref_56
       - *ref_57
       - *ref_58
       - *ref_59
@@ -580,6 +590,8 @@ sections:
       - *ref_62
       - *ref_63
       - *ref_64
+      - *ref_65
+      - *ref_66
   - name: 站长工具
     icon: far fa-user-secret
     displayData:
@@ -589,37 +601,37 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_65
+      - &ref_67
         title: 炸了么
         icon: favicon
         url: https://zhale.me/
         id: 0_114612_
-      - &ref_66
+      - &ref_68
         title: ITDOG
         icon: favicon
         url: https://www.itdog.cn/
         id: 1_114612_itdog
-      - &ref_67
+      - &ref_69
         title: PageSpeed
         icon: favicon
         url: https://pagespeed.web.dev/
         id: 2_114612_pagespeed
-      - &ref_68
+      - &ref_70
         title: Uptime kuma
         icon: favicon
-        url: https://status.bducds.com/
+        url: https://status.19981115.xyz/
         id: 3_114612_uptimekuma
-      - &ref_69
+      - &ref_71
         title: Luxirty Search
         icon: https://e.obai.cc/favicon.ico
         url: https://e.obai.cc/
         id: 4_114612_luxirtysearch
     filteredItems:
-      - *ref_65
-      - *ref_66
       - *ref_67
       - *ref_68
       - *ref_69
+      - *ref_70
+      - *ref_71
   - name: 在线API
     icon: far fa-project-diagram
     displayData:
@@ -629,13 +641,13 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_70
+      - &ref_72
         title: One Api
         icon: https://i.obai.cc/i/logo.svg
         url: https://api.obai.cc/
         statusCheck: true
         id: 0_54977_oneapi
-      - &ref_71
+      - &ref_73
         title: Xiaobai Api
         icon: favicon
         url: https://api.bducds.com/
@@ -643,5 +655,5 @@ sections:
         statusCheck: true
         id: 1_54977_xiaobaiapi
     filteredItems:
-      - *ref_70
-      - *ref_71
+      - *ref_72
+      - *ref_73
