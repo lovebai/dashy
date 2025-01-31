@@ -7,7 +7,7 @@ pageInfo:
     - title: Blog
       path: https://obai.cc
 appConfig:
-  theme: nord-frost
+  theme: dashy-docs
   language: cn
   layout: auto
   iconSize: medium
@@ -517,12 +517,18 @@ sections:
         icon: hl-duckduckgo
         url: https://2.19981115.xyz/https://duckduckgo.com/?q=DuckDuckGo&ia=chat
         id: 4_170_duckduckgoaiproxy
+      - &ref_57
+        title: DeepSeek
+        icon: favicon
+        url: https://chat.deepseek.com/
+        id: 5_170_deepseek
     filteredItems:
       - *ref_52
       - *ref_53
       - *ref_54
       - *ref_55
       - *ref_56
+      - *ref_57
   - name: IP Tools
     icon: far fa-clipboard-list
     displayData:
@@ -532,57 +538,56 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_57
+      - &ref_58
         title: WHOER
         icon: favicon
         url: https://whoer.net/zh
         id: 0_714_whoer
-      - &ref_58
+      - &ref_59
         title: MY IP
         icon: favicon
         url: https://www.whatismyip.com.tw/
         id: 1_714_myip
-      - &ref_59
+      - &ref_60
         title: IPLeak
         icon: favicon
         url: https://ipleak.net/
         id: 2_714_ipleak
-      - &ref_60
+      - &ref_61
         title: ip.im
         icon: favicon
         url: https://ip.im/
         id: 3_714_ipim
-      - &ref_61
+      - &ref_62
         title: ip.sb
         icon: favicon
         url: https://ip.sb/
         id: 4_714_ipsb
-      - &ref_62
+      - &ref_63
         title: CheckIp
         icon: far fa-desktop
         url: https://checkip.amazonaws.com/
         id: 5_714_checkip
-      - &ref_63
+      - &ref_64
         title: ifconfig.me
         icon: far fa-laptop
         url: https://ifconfig.me/
         id: 6_714_ifconfigme
-      - &ref_64
+      - &ref_65
         title: icanhazip
         icon: far fa-mobile
         url: http://icanhazip.com/
         id: 7_714_icanhazip
-      - &ref_65
+      - &ref_66
         title: ifconfig.co
         icon: far fa-webcam
         url: https://ifconfig.co
         id: 8_714_ifconfigco
-      - &ref_66
+      - &ref_67
         title: IP Leak
         url: https://ipv4.ping0.cc/ipleak
         id: 9_714_ipleak
     filteredItems:
-      - *ref_57
       - *ref_58
       - *ref_59
       - *ref_60
@@ -592,6 +597,7 @@ sections:
       - *ref_64
       - *ref_65
       - *ref_66
+      - *ref_67
   - name: 站长工具
     icon: far fa-user-secret
     displayData:
@@ -601,37 +607,37 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_67
+      - &ref_68
         title: 炸了么
         icon: favicon
         url: https://zhale.me/
         id: 0_114612_
-      - &ref_68
+      - &ref_69
         title: ITDOG
         icon: favicon
         url: https://www.itdog.cn/
         id: 1_114612_itdog
-      - &ref_69
+      - &ref_70
         title: PageSpeed
         icon: favicon
         url: https://pagespeed.web.dev/
         id: 2_114612_pagespeed
-      - &ref_70
+      - &ref_71
         title: Uptime kuma
         icon: favicon
         url: https://status.19981115.xyz/
         id: 3_114612_uptimekuma
-      - &ref_71
+      - &ref_72
         title: Luxirty Search
         icon: https://e.obai.cc/favicon.ico
         url: https://e.obai.cc/
         id: 4_114612_luxirtysearch
     filteredItems:
-      - *ref_67
       - *ref_68
       - *ref_69
       - *ref_70
       - *ref_71
+      - *ref_72
   - name: 在线API
     icon: far fa-project-diagram
     displayData:
@@ -641,13 +647,13 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_72
+      - &ref_73
         title: One Api
         icon: https://i.obai.cc/i/logo.svg
         url: https://api.obai.cc/
         statusCheck: true
         id: 0_54977_oneapi
-      - &ref_73
+      - &ref_74
         title: Xiaobai Api
         icon: favicon
         url: https://api.bducds.com/
@@ -655,5 +661,5 @@ sections:
         statusCheck: true
         id: 1_54977_xiaobaiapi
     filteredItems:
-      - *ref_72
       - *ref_73
+      - *ref_74
