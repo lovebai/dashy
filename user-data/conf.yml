@@ -59,7 +59,6 @@ sections:
         icon: favicon
         url: https://tophub.today/
         target: newtab
-        statusCheck: true
         id: 0_118154_
       - &ref_1
         title: Twitter
@@ -141,8 +140,37 @@ sections:
         icon: https://sec.bducds.com/favicon.ico
         url: https://sec.bducds.com/
         target: newtab
-        statusCheck: true
         id: 5_58133_
+      - &ref_12
+        title: chiphell
+        icon: favicon
+        url: https://www.chiphell.com/
+        id: 6_58133_chiphell
+      - &ref_13
+        title: 恩山无线
+        icon: favicon
+        url: https://www.right.com.cn/forum/
+        id: 7_58133_
+      - &ref_14
+        title: 小众软件
+        icon: favicon
+        url: https://meta.appinn.net/
+        id: 8_58133_
+      - &ref_15
+        title: 虫部落
+        icon: favicon
+        url: https://www.chongbuluo.com/
+        id: 9_58133_
+      - &ref_16
+        title: 风灵月影修改器
+        icon: favicon
+        url: https://flingtrainer.com/cn/community/
+        id: 10_58133_
+      - &ref_17
+        title: T00ls
+        icon: favicon
+        url: https://t00ls.com/
+        id: 11_58133_tls
     filteredItems:
       - *ref_6
       - *ref_7
@@ -150,6 +178,12 @@ sections:
       - *ref_9
       - *ref_10
       - *ref_11
+      - *ref_12
+      - *ref_13
+      - *ref_14
+      - *ref_15
+      - *ref_16
+      - *ref_17
   - name: 博客
     icon: far fa-blog
     displayData:
@@ -159,37 +193,35 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_12
+      - &ref_18
         title: RGB255
         icon: https://obai.cc/favicon.ico
         url: https://obai.cc/
         target: newtab
-        statusCheck: true
         id: 0_44796_rgb
-      - &ref_13
+      - &ref_19
         title: 酷酷的白
         icon: https://bducds.com/ico
         url: https://bducds.com/
         target: newtab
-        statusCheck: true
         id: 1_44796_
-      - &ref_14
+      - &ref_20
         title: MY-Note
         icon: favicon
         url: https://19981115.xyz/
         target: newtab
         id: 2_44796_mynote
-      - &ref_15
+      - &ref_21
         title: Bai
         icon: favicon
         url: https://uvw.xlog.app/
         target: newtab
         id: 3_44796_bai
     filteredItems:
-      - *ref_12
-      - *ref_13
-      - *ref_14
-      - *ref_15
+      - *ref_18
+      - *ref_19
+      - *ref_20
+      - *ref_21
   - name: 在线工具
     icon: far fa-tools
     displayData:
@@ -199,71 +231,70 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_16
+      - &ref_22
         title: IT - Tools
         icon: https://tools.bducds.com/favicon.ico
         url: https://tools.bducds.com/
         target: newtab
-        statusCheck: true
         id: 0_99651_ittools
-      - &ref_17
+      - &ref_23
         title: Online Tools
         icon: favicon
         url: https://emn178.github.io/online-tools/
         target: newtab
         id: 1_99651_onlinetools
-      - &ref_18
+      - &ref_24
         title: 在线抠图
         icon: favicon
         url: https://www.remove.bg/zh
         id: 2_99651_
-      - &ref_19
+      - &ref_25
         title: PDF工具箱
         icon: favicon
         url: https://p.obai.cc/
         target: newtab
         id: 3_99651_pdf
-      - &ref_20
+      - &ref_26
         title: 在线工具箱
         icon: favicon
         url: https://tool.lu/
         id: 4_99651_
-      - &ref_21
+      - &ref_27
         title: I Live PDF
         icon: favicon
         url: https://www.ilovepdf.com/zh-cn
         id: 5_99651_ilivepdf
-      - &ref_22
+      - &ref_28
         title: Remove Video Background
         icon: favicon
         url: https://www.unscreen.com/
         id: 6_99651_removevideobackground
-      - &ref_23
+      - &ref_29
         title: 帮小忙
         icon: favicon
         url: https://tool.browser.qq.com/
         id: 7_99651_
-      - &ref_24
+      - &ref_30
         title: Github-Mirror
         icon: hl-github
         url: https://github-mirror.us.kg/
         id: 8_99651_githubmirror
-      - &ref_25
+      - &ref_31
         title: TopTool
         icon: favicon
         url: https://top.tools/
         id: 9_99651_toptool
     filteredItems:
-      - *ref_16
-      - *ref_17
-      - *ref_18
-      - *ref_19
-      - *ref_20
-      - *ref_21
       - *ref_22
       - *ref_23
       - *ref_24
       - *ref_25
+      - *ref_26
+      - *ref_27
+      - *ref_28
+      - *ref_29
+      - *ref_30
+      - *ref_31
   - name: 文件存储
     icon: far fa-folders
     displayData:
@@ -273,29 +304,27 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_26
+      - &ref_32
         title: Filelist
         icon: favicon
         url: https://a.obai.cc/
         target: newtab
-        statusCheck: true
         id: 0_90237_filelist
-      - &ref_27
+      - &ref_33
         title: CloudFile
         icon: favicon
         url: https://c.obai.cc/
         target: newtab
-        statusCheck: true
         id: 1_90237_cloudfile
-      - &ref_28
+      - &ref_34
         title: OneDrive
         icon: favicon
         url: https://smnts-my.sharepoint.com/
         id: 2_90237_onedrive
     filteredItems:
-      - *ref_26
-      - *ref_27
-      - *ref_28
+      - *ref_32
+      - *ref_33
+      - *ref_34
   - name: 必备
     icon: far fa-file-alt
     displayData:
@@ -305,30 +334,34 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_29
+      - &ref_35
         title: BitWarden
         icon: hl-bitwarden
         url: https://b.obai.cc/
         target: newtab
         id: 0_47308_bitwarden
-      - &ref_30
+      - &ref_36
         title: AdGuard Home
         icon: hl-adguard-home
         url: https://d.obai.cc/
         target: newtab
-        statusCheck: true
         id: 1_47308_adguardhome
-      - &ref_31
+      - &ref_37
         title: Like Girl
         icon: favicon
         url: https://051214.xyz/
         target: newtab
-        statusCheck: true
         id: 2_47308_likegirl
+      - &ref_38
+        title: Github
+        icon: favicon
+        url: https://github.com
+        id: 3_47308_github
     filteredItems:
-      - *ref_29
-      - *ref_30
-      - *ref_31
+      - *ref_35
+      - *ref_36
+      - *ref_37
+      - *ref_38
   - name: 图床
     icon: far fa-file-image
     displayData:
@@ -338,57 +371,56 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_32
+      - &ref_39
         title: 小白图床
         icon: favicon
         url: https://i.obai.cc/
         target: newtab
-        statusCheck: true
         id: 0_46472_
-      - &ref_33
+      - &ref_40
         title: Telegraph-Image
         icon: favicon
         url: https://im.gurl.eu.org/
         id: 1_46472_telegraphimage
-      - &ref_34
+      - &ref_41
         title: picshack
         icon: favicon
         url: https://picshack.net/
         id: 2_46472_picshack
-      - &ref_35
+      - &ref_42
         title: Imgur
         icon: favicon
         url: https://img.doerig.dev/
         id: 3_46472_imgur
-      - &ref_36
+      - &ref_43
         title: sm.sm
         icon: favicon
         url: https://sm.ms/
         id: 4_46472_smsm
-      - &ref_37
+      - &ref_44
         title: 路过图床
         icon: favicon
         url: https://imgse.com/
         id: 5_46472_
-      - &ref_38
+      - &ref_45
         title: 图床导航
         icon: favicon
         url: http://imgdh.com/
         id: 6_46472_
-      - &ref_39
+      - &ref_46
         title: '111666'
         icon: favicon
         url: https://111666.best/
         id: 7_46472_
     filteredItems:
-      - *ref_32
-      - *ref_33
-      - *ref_34
-      - *ref_35
-      - *ref_36
-      - *ref_37
-      - *ref_38
       - *ref_39
+      - *ref_40
+      - *ref_41
+      - *ref_42
+      - *ref_43
+      - *ref_44
+      - *ref_45
+      - *ref_46
   - name: 视频影音
     icon: far fa-photo-video
     displayData:
@@ -398,50 +430,50 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_40
+      - &ref_47
         title: Free TV
         icon: hl-rumble
         url: https://tv.ucds.me/
         target: newtab
         id: 0_137659_freetv
-      - &ref_41
+      - &ref_48
         title: 海纳TV
         icon: favicon
         url: https://www.hainatv.net/
         id: 1_137659_tv
-      - &ref_42
+      - &ref_49
         title: 厂长资源
         icon: favicon
         url: https://www.czzy77.com/
         id: 2_137659_
-      - &ref_43
+      - &ref_50
         title: 美益达
         icon: favicon
         url: https://www.meiyd12.com/
         id: 3_137659_
-      - &ref_44
+      - &ref_51
         title: 饺子影视
         icon: favicon
         url: https://www.jiaozi.me/
         id: 4_137659_
-      - &ref_45
+      - &ref_52
         title: 泥视频
         icon: favicon
         url: https://www.nivod.vip/
         id: 5_137659_
-      - &ref_46
+      - &ref_53
         title: 金牌影视
         icon: favicon
         url: https://www.6umkq9b.com/
         id: 6_137659_
     filteredItems:
-      - *ref_40
-      - *ref_41
-      - *ref_42
-      - *ref_43
-      - *ref_44
-      - *ref_45
-      - *ref_46
+      - *ref_47
+      - *ref_48
+      - *ref_49
+      - *ref_50
+      - *ref_51
+      - *ref_52
+      - *ref_53
   - name: 其他
     icon: far fa-edit
     displayData:
@@ -451,25 +483,25 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_47
+      - &ref_54
         title: 彼岸壁纸
         icon: favicon
         url: http://www.netbian.com/
         id: 0_41036_
-      - &ref_48
+      - &ref_55
         title: censys
         icon: favicon
         url: https://search.censys.io/
         id: 1_41036_censys
-      - &ref_49
+      - &ref_56
         title: Cloudfalre
         icon: favicon
         url: https://cloudflare.com/
         id: 2_41036_cloudfalre
     filteredItems:
-      - *ref_47
-      - *ref_48
-      - *ref_49
+      - *ref_54
+      - *ref_55
+      - *ref_56
   - name: Ai
     icon: far fa-comments-alt
     displayData:
@@ -479,43 +511,43 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_50
+      - &ref_57
         title: ChatGpt
         icon: hl-chatgpt
         url: https://chatgpt.com/
         id: 0_170_chatgpt
-      - &ref_51
+      - &ref_58
         title: DuckDuckGo AI
         icon: hl-duckduckgo
         url: https://duckduckgo.com/?q=DuckDuckGo&ia=chat
         id: 1_170_duckduckgoai
-      - &ref_52
+      - &ref_59
         title: Gemini
         icon: favicon
         url: https://gemini.google.com/
         id: 2_170_gemini
-      - &ref_53
+      - &ref_60
         title: 百度AI
         icon: favicon
         url: https://chat.baidu.com/
         id: 3_170_ai
-      - &ref_54
+      - &ref_61
         title: DuckDuckGo Ai Proxy
         icon: hl-duckduckgo
         url: https://2.19981115.xyz/https://duckduckgo.com/?q=DuckDuckGo&ia=chat
         id: 4_170_duckduckgoaiproxy
-      - &ref_55
+      - &ref_62
         title: DeepSeek
         icon: favicon
         url: https://chat.deepseek.com/
         id: 5_170_deepseek
     filteredItems:
-      - *ref_50
-      - *ref_51
-      - *ref_52
-      - *ref_53
-      - *ref_54
-      - *ref_55
+      - *ref_57
+      - *ref_58
+      - *ref_59
+      - *ref_60
+      - *ref_61
+      - *ref_62
   - name: IP Tools
     icon: far fa-clipboard-list
     displayData:
@@ -525,66 +557,66 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_56
+      - &ref_63
         title: WHOER
         icon: favicon
         url: https://whoer.net/zh
         id: 0_714_whoer
-      - &ref_57
+      - &ref_64
         title: MY IP
         icon: favicon
         url: https://www.whatismyip.com.tw/
         id: 1_714_myip
-      - &ref_58
+      - &ref_65
         title: IPLeak
         icon: favicon
         url: https://ipleak.net/
         id: 2_714_ipleak
-      - &ref_59
+      - &ref_66
         title: ip.im
         icon: favicon
         url: https://ip.im/
         id: 3_714_ipim
-      - &ref_60
+      - &ref_67
         title: ip.sb
         icon: favicon
         url: https://ip.sb/
         id: 4_714_ipsb
-      - &ref_61
+      - &ref_68
         title: CheckIp
         icon: far fa-desktop
         url: https://checkip.amazonaws.com/
         id: 5_714_checkip
-      - &ref_62
+      - &ref_69
         title: ifconfig.me
         icon: far fa-laptop
         url: https://ifconfig.me/
         id: 6_714_ifconfigme
-      - &ref_63
+      - &ref_70
         title: icanhazip
         icon: far fa-mobile
         url: http://icanhazip.com/
         id: 7_714_icanhazip
-      - &ref_64
+      - &ref_71
         title: ifconfig.co
         icon: far fa-webcam
         url: https://ifconfig.co
         id: 8_714_ifconfigco
-      - &ref_65
+      - &ref_72
         title: IP Leak
         url: https://ipv4.ping0.cc/ipleak
         id: 9_714_ipleak
     filteredItems:
-      - *ref_56
-      - *ref_57
-      - *ref_58
-      - *ref_59
-      - *ref_60
-      - *ref_61
-      - *ref_62
       - *ref_63
       - *ref_64
       - *ref_65
+      - *ref_66
+      - *ref_67
+      - *ref_68
+      - *ref_69
+      - *ref_70
+      - *ref_71
+      - *ref_72
   - name: 站长工具
     icon: far fa-user-secret
     displayData:
@@ -594,37 +626,37 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_66
+      - &ref_73
         title: 炸了么
         icon: favicon
         url: https://zhale.me/
         id: 0_114612_
-      - &ref_67
+      - &ref_74
         title: ITDOG
         icon: favicon
         url: https://www.itdog.cn/
         id: 1_114612_itdog
-      - &ref_68
+      - &ref_75
         title: PageSpeed
         icon: favicon
         url: https://pagespeed.web.dev/
         id: 2_114612_pagespeed
-      - &ref_69
+      - &ref_76
         title: Uptime kuma
         icon: favicon
         url: https://status.19981115.xyz/
         id: 3_114612_uptimekuma
-      - &ref_70
+      - &ref_77
         title: Luxirty Search
         icon: https://e.obai.cc/favicon.ico
         url: https://e.obai.cc/
         id: 4_114612_luxirtysearch
     filteredItems:
-      - *ref_66
-      - *ref_67
-      - *ref_68
-      - *ref_69
-      - *ref_70
+      - *ref_73
+      - *ref_74
+      - *ref_75
+      - *ref_76
+      - *ref_77
   - name: 在线API
     icon: far fa-project-diagram
     displayData:
@@ -634,19 +666,38 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_71
+      - &ref_78
         title: One Api
         icon: https://i.obai.cc/i/logo.svg
         url: https://api.obai.cc/
-        statusCheck: true
         id: 0_54977_oneapi
-      - &ref_72
+      - &ref_79
         title: Xiaobai Api
         icon: favicon
         url: https://api.bducds.com/
         target: newtab
-        statusCheck: true
         id: 1_54977_xiaobaiapi
     filteredItems:
-      - *ref_71
-      - *ref_72
+      - *ref_78
+      - *ref_79
+  - name: 资讯
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_80
+        title: 少数派
+        icon: favicon
+        url: https://sspai.com/
+        id: 0_71923_
+      - &ref_81
+        title: 蓝点网
+        icon: favicon
+        url: https://www.landiannews.com/
+        id: 1_71923_
+    filteredItems:
+      - *ref_80
+      - *ref_81
