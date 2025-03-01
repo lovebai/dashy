@@ -484,6 +484,34 @@ sections:
       - *ref_53
       - *ref_54
       - *ref_55
+  - name: 其他
+    icon: far fa-edit
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_56
+        title: 彼岸壁纸
+        icon: hl-apache-airflow
+        url: http://www.netbian.com/
+        id: 0_41036_
+      - &ref_57
+        title: censys
+        icon: favicon
+        url: https://search.censys.io/
+        id: 1_41036_censys
+      - &ref_58
+        title: okx
+        icon: favicon
+        url: https://okx.com
+        id: 2_41036_okx
+    filteredItems:
+      - *ref_56
+      - *ref_57
+      - *ref_58
   - name: Ai
     icon: far fa-comments-alt
     displayData:
@@ -514,9 +542,9 @@ sections:
         url: https://chat.baidu.com/
         id: 3_170_ai
       - &ref_63
-        title: DuckDuckGo Ai Proxy
-        icon: hl-duckduckgo
-        url: https://2.19981115.xyz/https://duckduckgo.com/?q=DuckDuckGo&ia=chat
+        title: 提示词优化
+        icon: hl-openai
+        url: https://prompt.always200.com/
         id: 4_170_duckduckgoaiproxy
       - &ref_64
         title: DeepSeek
@@ -695,31 +723,3 @@ sections:
     filteredItems:
       - *ref_84
       - *ref_85
-  - name: 其他
-    icon: far fa-edit
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - &ref_56
-        title: 彼岸壁纸
-        icon: favicon
-        url: http://www.netbian.com/
-        id: 0_41036_
-      - &ref_57
-        title: censys
-        icon: favicon
-        url: https://search.censys.io/
-        id: 1_41036_censys
-      - &ref_58
-        title: okx
-        icon: favicon
-        url: https://okx.com
-        id: 2_41036_okx
-    filteredItems:
-      - *ref_56
-      - *ref_57
-      - *ref_58
