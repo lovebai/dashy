@@ -1,5 +1,3 @@
----
-# Page meta info, like heading, footer text and nav links
 pageInfo:
   title: DashPage
   description: Welcome to My dashboard!
@@ -281,66 +279,75 @@ sections:
         url: https://www.remove.bg/zh
         id: 2_99651_
       - &ref_28
-        title: PDF工具箱
-        icon: favicon
-        url: https://d.obai.cc/
-        target: newtab
-        id: 3_99651_pdf
-      - &ref_29
         title: 在线工具箱
         icon: favicon
         url: https://tool.lu/
-        id: 4_99651_
-      - &ref_30
+        id: 3_99651_
+      - &ref_29
         title: I Live PDF
         icon: favicon
         url: https://www.ilovepdf.com/zh-cn
-        id: 5_99651_ilivepdf
-      - &ref_31
-        title: Remove Video Background
+        id: 4_99651_ilivepdf
+      - &ref_30
+        title: 去除视频背景
         icon: favicon
         url: https://www.unscreen.com/
-        id: 6_99651_removevideobackground
-      - &ref_32
+        id: 5_99651_
+      - &ref_31
         title: 帮小忙
         icon: favicon
         url: https://tool.browser.qq.com/
-        id: 7_99651_
-      - &ref_33
+        id: 6_99651_
+      - &ref_32
         title: Github-Mirror
         icon: hl-github
         url: https://github-mirror.us.kg/
-        id: 8_99651_githubmirror
-      - &ref_34
+        id: 7_99651_githubmirror
+      - &ref_33
         title: TopTool
         icon: favicon
         url: https://top.tools/
-        id: 9_99651_toptool
-      - &ref_35
+        id: 8_99651_toptool
+      - &ref_34
         title: 订阅转换
         icon: si-hubspot
         url: https://sub.ucds.me/
-        id: 10_99651_
-      - &ref_36
+        id: 9_99651_
+      - &ref_35
         title: 在线订阅转换
         icon: favicon
         url: https://sub4web.netlify.app/
-        id: 11_99651_
-      - &ref_37
+        id: 10_99651_
+      - &ref_36
         title: 'Sublink '
         icon: favicon
         url: https://sub.19981115.xyz/
-        id: 12_99651_sublink
-      - &ref_38
+        id: 11_99651_sublink
+      - &ref_37
         title: Pairdrop
         icon: favicon
         url: https://pairdrop.net/#
-        id: 13_99651_pairdrop
-      - &ref_39
+        id: 12_99651_pairdrop
+      - &ref_38
         title: squoosh
         icon: favicon
         url: https://squoosh.app/
-        id: 14_99651_squoosh
+        id: 13_99651_squoosh
+      - &ref_39
+        title: Latext公式编辑器
+        icon: favicon
+        url: https://www.latexlive.com/home
+        id: 14_99651_latext
+      - &ref_40
+        title: 在线工具箱
+        icon: favicon
+        url: https://tools.yourmather.eu.org/
+        id: 15_99651_
+      - &ref_41
+        title: TinifyPNG
+        icon: favicon
+        url: https://tinify.cn/
+        id: 16_99651_tinifypng
     filteredItems:
       - *ref_25
       - *ref_26
@@ -357,6 +364,8 @@ sections:
       - *ref_37
       - *ref_38
       - *ref_39
+      - *ref_40
+      - *ref_41
   - name: 文件存储
     icon: far fa-folders
     displayData:
@@ -366,27 +375,27 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_40
+      - &ref_42
         title: Filelist
         icon: favicon
         url: https://a.obai.cc/
         target: newtab
         id: 0_90237_filelist
-      - &ref_41
+      - &ref_43
         title: CloudFile
         icon: favicon
         url: https://c.obai.cc/
         target: newtab
         id: 1_90237_cloudfile
-      - &ref_42
+      - &ref_44
         title: OneDrive
         icon: favicon
         url: https://smnts-my.sharepoint.com/
         id: 2_90237_onedrive
     filteredItems:
-      - *ref_40
-      - *ref_41
       - *ref_42
+      - *ref_43
+      - *ref_44
   - name: 图床
     icon: far fa-file-image
     displayData:
@@ -396,56 +405,56 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_43
+      - &ref_45
         title: 小白图床
         icon: favicon
         url: https://i.obai.cc/
         target: newtab
         id: 0_46472_
-      - &ref_44
+      - &ref_46
         title: Telegraph-Image
         icon: favicon
         url: https://im.gurl.eu.org/
         id: 1_46472_telegraphimage
-      - &ref_45
+      - &ref_47
         title: picshack
         icon: favicon
         url: https://picshack.net/
         id: 2_46472_picshack
-      - &ref_46
+      - &ref_48
         title: Imgur
         icon: favicon
         url: https://img.doerig.dev/
         id: 3_46472_imgur
-      - &ref_47
+      - &ref_49
         title: sm.sm
         icon: favicon
         url: https://sm.ms/
         id: 4_46472_smsm
-      - &ref_48
+      - &ref_50
         title: 路过图床
         icon: favicon
         url: https://imgse.com/
         id: 5_46472_
-      - &ref_49
+      - &ref_51
         title: 图床导航
         icon: favicon
         url: http://imgdh.com/
         id: 6_46472_
-      - &ref_50
+      - &ref_52
         title: '111666'
         icon: favicon
         url: https://111666.best/
         id: 7_46472_
     filteredItems:
-      - *ref_43
-      - *ref_44
       - *ref_45
       - *ref_46
       - *ref_47
       - *ref_48
       - *ref_49
       - *ref_50
+      - *ref_51
+      - *ref_52
   - name: 视频影音
     icon: far fa-photo-video
     displayData:
@@ -455,56 +464,56 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_51
+      - &ref_53
         title: Free TV
         icon: hl-rumble
         url: https://tv.ucds.me/
         target: newtab
         id: 0_137659_freetv
-      - &ref_52
+      - &ref_54
         title: 海纳TV
         icon: favicon
         url: https://www.hainatv.net/
         id: 1_137659_tv
-      - &ref_53
+      - &ref_55
         title: 厂长资源
         icon: favicon
         url: https://www.czzy77.com/
         id: 2_137659_
-      - &ref_54
+      - &ref_56
         title: 美益达
         icon: favicon
         url: https://www.meiyd12.com/
         id: 3_137659_
-      - &ref_55
+      - &ref_57
         title: 饺子影视
         icon: favicon
         url: https://www.jiaozi.me/
         id: 4_137659_
-      - &ref_56
+      - &ref_58
         title: 泥视频
         icon: favicon
         url: https://www.nivod.vip/
         id: 5_137659_
-      - &ref_57
+      - &ref_59
         title: 金牌影视
         icon: favicon
         url: https://www.6umkq9b.com/
         id: 6_137659_
-      - &ref_58
+      - &ref_60
         title: 次元动画城
         icon: favicon
         url: https://www.cycani.org/
         id: 7_137659_
     filteredItems:
-      - *ref_51
-      - *ref_52
       - *ref_53
       - *ref_54
       - *ref_55
       - *ref_56
       - *ref_57
       - *ref_58
+      - *ref_59
+      - *ref_60
   - name: 其他
     icon: far fa-edit
     displayData:
@@ -514,45 +523,45 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_59
+      - &ref_61
         title: 彼岸壁纸
         icon: hl-apache-airflow
         url: http://www.netbian.com/
         id: 0_41036_
-      - &ref_60
+      - &ref_62
         title: censys
         icon: favicon
         url: https://search.censys.io/
         id: 1_41036_censys
-      - &ref_61
+      - &ref_63
         title: okx
         icon: favicon
         url: https://okx.com
         id: 2_41036_okx
-      - &ref_62
+      - &ref_64
         title: Xiaobai Api
         icon: favicon
         url: https://api.bducds.com/
         target: newtab
         id: 3_41036_xiaobaiapi
-      - &ref_63
+      - &ref_65
         title: AdGuard Home
         icon: hl-adguard-home
         url: https://d.obai.cc/
         target: newtab
         id: 4_41036_adguardhome
-      - &ref_64
+      - &ref_66
         title: Alger Music
         icon: icon
         url: http://mc.alger.fun/#/
         id: 5_41036_algermusic
     filteredItems:
-      - *ref_59
-      - *ref_60
       - *ref_61
       - *ref_62
       - *ref_63
       - *ref_64
+      - *ref_65
+      - *ref_66
   - name: Ai
     icon: far fa-comments-alt
     displayData:
@@ -562,70 +571,68 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_65
+      - &ref_67
         title: ChatGpt
         icon: hl-chatgpt
         url: https://chatgpt.com/
         id: 0_170_chatgpt
-      - &ref_66
+      - &ref_68
         title: DuckDuckGo AI
         icon: hl-duckduckgo
         url: https://duckduckgo.com/?q=DuckDuckGo&ia=chat
         id: 1_170_duckduckgoai
-      - &ref_67
+      - &ref_69
         title: Gemini
         icon: favicon
         url: https://gemini.google.com/
         id: 2_170_gemini
-      - &ref_68
+      - &ref_70
         title: 百度AI
         icon: favicon
         url: https://chat.baidu.com/
         id: 3_170_ai
-      - &ref_69
+      - &ref_71
         title: 提示词优化
         icon: hl-openai
         url: https://prompt.always200.com/
         id: 4_170_
-      - &ref_70
+      - &ref_72
         title: DeepSeek
         icon: favicon
         url: https://chat.deepseek.com/
         id: 5_170_deepseek
-      - &ref_71
+      - &ref_73
         title: NextChat
         icon: favicon
         url: https://chat.yourfather.eu.org/
         id: 6_170_nextchat
-      - &ref_72
+      - &ref_74
         title: LobeChat
         icon: favicon
         url: https://yourmather.eu.org/
         id: 7_170_lobechat
-      - &ref_73
+      - &ref_75
         title: Grok
         icon: favicon
         url: https://grok.com/
         id: 8_170_grok
-      - &ref_74
+      - &ref_76
         title: Openrouter
         icon: favicon
         url: https://openrouter.ai/
         id: 9_170_openrouter
-      - &ref_75
+      - &ref_77
         title: One Api
         icon: https://i.obai.cc/i/logo.svg
         url: https://api.obai.cc/
         id: 10_170_oneapi
-      - &ref_76
+      - &ref_78
         title: copilot
         icon: favicon
         url: >-
           https://copilot.cloud.microsoft/?fromCode=cmcv2&redirectId=553232069B274418B8191DC48F0016A3&auth=2
         id: 11_170_copilot
     filteredItems:
-      - *ref_65
-      - *ref_66
       - *ref_67
       - *ref_68
       - *ref_69
@@ -636,6 +643,8 @@ sections:
       - *ref_74
       - *ref_75
       - *ref_76
+      - *ref_77
+      - *ref_78
   - name: IP Tools
     icon: far fa-clipboard-list
     displayData:
@@ -645,58 +654,56 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_77
+      - &ref_79
         title: WHOER
         icon: favicon
         url: https://whoer.net/zh
         id: 0_714_whoer
-      - &ref_78
+      - &ref_80
         title: MY IP
         icon: favicon
         url: https://www.whatismyip.com.tw/
         id: 1_714_myip
-      - &ref_79
+      - &ref_81
         title: IPLeak
         icon: favicon
         url: https://ipleak.net/
         id: 2_714_ipleak
-      - &ref_80
+      - &ref_82
         title: ip.im
         icon: favicon
         url: https://ip.im/
         id: 3_714_ipim
-      - &ref_81
+      - &ref_83
         title: ip.sb
         icon: favicon
         url: https://ip.sb/
         id: 4_714_ipsb
-      - &ref_82
+      - &ref_84
         title: CheckIp
         icon: far fa-desktop
         url: https://checkip.amazonaws.com/
         id: 5_714_checkip
-      - &ref_83
+      - &ref_85
         title: ifconfig.me
         icon: far fa-laptop
         url: https://ifconfig.me/
         id: 6_714_ifconfigme
-      - &ref_84
+      - &ref_86
         title: icanhazip
         icon: far fa-mobile
         url: http://icanhazip.com/
         id: 7_714_icanhazip
-      - &ref_85
+      - &ref_87
         title: ifconfig.co
         icon: far fa-webcam
         url: https://ifconfig.co
         id: 8_714_ifconfigco
-      - &ref_86
+      - &ref_88
         title: IP Leak
         url: https://ipv4.ping0.cc/ipleak
         id: 9_714_ipleak
     filteredItems:
-      - *ref_77
-      - *ref_78
       - *ref_79
       - *ref_80
       - *ref_81
@@ -705,6 +712,8 @@ sections:
       - *ref_84
       - *ref_85
       - *ref_86
+      - *ref_87
+      - *ref_88
   - name: 站长工具
     icon: far fa-user-secret
     displayData:
@@ -714,37 +723,37 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_87
+      - &ref_89
         title: 炸了么
         icon: favicon
         url: https://zhale.me/
         id: 0_114612_
-      - &ref_88
+      - &ref_90
         title: ITDOG
         icon: favicon
         url: https://www.itdog.cn/
         id: 1_114612_itdog
-      - &ref_89
+      - &ref_91
         title: PageSpeed
         icon: favicon
         url: https://pagespeed.web.dev/
         id: 2_114612_pagespeed
-      - &ref_90
+      - &ref_92
         title: Uptime kuma
         icon: favicon
         url: https://status.19981115.xyz/
         id: 3_114612_uptimekuma
-      - &ref_91
+      - &ref_93
         title: Luxirty Search
         icon: https://e.obai.cc/favicon.ico
         url: https://e.obai.cc/
         id: 4_114612_luxirtysearch
     filteredItems:
-      - *ref_87
-      - *ref_88
       - *ref_89
       - *ref_90
       - *ref_91
+      - *ref_92
+      - *ref_93
   - name: 资讯
     displayData:
       sortBy: default
@@ -753,16 +762,16 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_92
+      - &ref_94
         title: 少数派
         icon: favicon
         url: https://sspai.com/
         id: 0_71923_
-      - &ref_93
+      - &ref_95
         title: 蓝点网
         icon: favicon
         url: https://www.landiannews.com/
         id: 1_71923_
     filteredItems:
-      - *ref_92
-      - *ref_93
+      - *ref_94
+      - *ref_95
