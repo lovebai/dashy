@@ -505,6 +505,11 @@ sections:
         icon: favicon
         url: https://www.cycani.org/
         id: 7_137659_
+      - &ref_61
+        title: 低端影视
+        icon: favicon
+        url: https://ddys.one/
+        id: 8_137659_
     filteredItems:
       - *ref_53
       - *ref_54
@@ -514,6 +519,7 @@ sections:
       - *ref_58
       - *ref_59
       - *ref_60
+      - *ref_61
   - name: 其他
     icon: far fa-edit
     displayData:
@@ -523,45 +529,45 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_61
+      - &ref_62
         title: 彼岸壁纸
         icon: hl-apache-airflow
         url: http://www.netbian.com/
         id: 0_41036_
-      - &ref_62
+      - &ref_63
         title: censys
         icon: favicon
         url: https://search.censys.io/
         id: 1_41036_censys
-      - &ref_63
+      - &ref_64
         title: okx
         icon: favicon
         url: https://okx.com
         id: 2_41036_okx
-      - &ref_64
+      - &ref_65
         title: Xiaobai Api
         icon: favicon
         url: https://api.bducds.com/
         target: newtab
         id: 3_41036_xiaobaiapi
-      - &ref_65
+      - &ref_66
         title: AdGuard Home
         icon: hl-adguard-home
         url: https://d.obai.cc/
         target: newtab
         id: 4_41036_adguardhome
-      - &ref_66
+      - &ref_67
         title: Alger Music
         icon: icon
         url: http://mc.alger.fun/#/
         id: 5_41036_algermusic
     filteredItems:
-      - *ref_61
       - *ref_62
       - *ref_63
       - *ref_64
       - *ref_65
       - *ref_66
+      - *ref_67
   - name: Ai
     icon: far fa-comments-alt
     displayData:
@@ -571,69 +577,68 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_67
+      - &ref_68
         title: ChatGpt
         icon: hl-chatgpt
         url: https://chatgpt.com/
         id: 0_170_chatgpt
-      - &ref_68
+      - &ref_69
         title: DuckDuckGo AI
         icon: hl-duckduckgo
         url: https://duckduckgo.com/?q=DuckDuckGo&ia=chat
         id: 1_170_duckduckgoai
-      - &ref_69
+      - &ref_70
         title: Gemini
         icon: favicon
         url: https://gemini.google.com/
         id: 2_170_gemini
-      - &ref_70
+      - &ref_71
         title: 百度AI
         icon: favicon
         url: https://chat.baidu.com/
         id: 3_170_ai
-      - &ref_71
+      - &ref_72
         title: 提示词优化
         icon: hl-openai
         url: https://prompt.always200.com/
         id: 4_170_
-      - &ref_72
+      - &ref_73
         title: DeepSeek
         icon: favicon
         url: https://chat.deepseek.com/
         id: 5_170_deepseek
-      - &ref_73
+      - &ref_74
         title: NextChat
         icon: favicon
         url: https://chat.yourfather.eu.org/
         id: 6_170_nextchat
-      - &ref_74
+      - &ref_75
         title: LobeChat
         icon: favicon
         url: https://yourmather.eu.org/
         id: 7_170_lobechat
-      - &ref_75
+      - &ref_76
         title: Grok
         icon: favicon
         url: https://grok.com/
         id: 8_170_grok
-      - &ref_76
+      - &ref_77
         title: Openrouter
         icon: favicon
         url: https://openrouter.ai/
         id: 9_170_openrouter
-      - &ref_77
+      - &ref_78
         title: One Api
         icon: https://i.obai.cc/i/logo.svg
         url: https://api.obai.cc/
         id: 10_170_oneapi
-      - &ref_78
+      - &ref_79
         title: copilot
         icon: favicon
         url: >-
           https://copilot.cloud.microsoft/?fromCode=cmcv2&redirectId=553232069B274418B8191DC48F0016A3&auth=2
         id: 11_170_copilot
     filteredItems:
-      - *ref_67
       - *ref_68
       - *ref_69
       - *ref_70
@@ -645,6 +650,7 @@ sections:
       - *ref_76
       - *ref_77
       - *ref_78
+      - *ref_79
   - name: IP Tools
     icon: far fa-clipboard-list
     displayData:
@@ -654,57 +660,56 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_79
+      - &ref_80
         title: WHOER
         icon: favicon
         url: https://whoer.net/zh
         id: 0_714_whoer
-      - &ref_80
+      - &ref_81
         title: MY IP
         icon: favicon
         url: https://www.whatismyip.com.tw/
         id: 1_714_myip
-      - &ref_81
+      - &ref_82
         title: IPLeak
         icon: favicon
         url: https://ipleak.net/
         id: 2_714_ipleak
-      - &ref_82
+      - &ref_83
         title: ip.im
         icon: favicon
         url: https://ip.im/
         id: 3_714_ipim
-      - &ref_83
+      - &ref_84
         title: ip.sb
         icon: favicon
         url: https://ip.sb/
         id: 4_714_ipsb
-      - &ref_84
+      - &ref_85
         title: CheckIp
         icon: far fa-desktop
         url: https://checkip.amazonaws.com/
         id: 5_714_checkip
-      - &ref_85
+      - &ref_86
         title: ifconfig.me
         icon: far fa-laptop
         url: https://ifconfig.me/
         id: 6_714_ifconfigme
-      - &ref_86
+      - &ref_87
         title: icanhazip
         icon: far fa-mobile
         url: http://icanhazip.com/
         id: 7_714_icanhazip
-      - &ref_87
+      - &ref_88
         title: ifconfig.co
         icon: far fa-webcam
         url: https://ifconfig.co
         id: 8_714_ifconfigco
-      - &ref_88
+      - &ref_89
         title: IP Leak
         url: https://ipv4.ping0.cc/ipleak
         id: 9_714_ipleak
     filteredItems:
-      - *ref_79
       - *ref_80
       - *ref_81
       - *ref_82
@@ -714,6 +719,7 @@ sections:
       - *ref_86
       - *ref_87
       - *ref_88
+      - *ref_89
   - name: 站长工具
     icon: far fa-user-secret
     displayData:
@@ -723,37 +729,37 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_89
+      - &ref_90
         title: 炸了么
         icon: favicon
         url: https://zhale.me/
         id: 0_114612_
-      - &ref_90
+      - &ref_91
         title: ITDOG
         icon: favicon
         url: https://www.itdog.cn/
         id: 1_114612_itdog
-      - &ref_91
+      - &ref_92
         title: PageSpeed
         icon: favicon
         url: https://pagespeed.web.dev/
         id: 2_114612_pagespeed
-      - &ref_92
+      - &ref_93
         title: Uptime kuma
         icon: favicon
         url: https://status.19981115.xyz/
         id: 3_114612_uptimekuma
-      - &ref_93
+      - &ref_94
         title: Luxirty Search
         icon: https://e.obai.cc/favicon.ico
         url: https://e.obai.cc/
         id: 4_114612_luxirtysearch
     filteredItems:
-      - *ref_89
       - *ref_90
       - *ref_91
       - *ref_92
       - *ref_93
+      - *ref_94
   - name: 资讯
     displayData:
       sortBy: default
@@ -762,16 +768,43 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_94
+      - &ref_95
         title: 少数派
         icon: favicon
         url: https://sspai.com/
         id: 0_71923_
-      - &ref_95
+      - &ref_96
         title: 蓝点网
         icon: favicon
         url: https://www.landiannews.com/
         id: 1_71923_
     filteredItems:
-      - *ref_94
       - *ref_95
+      - *ref_96
+  - name: Online Games
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_97
+        title: gamekazi
+        icon: favicon
+        url: https://gamekazi.com/
+        id: 0_1138_gamekazi
+      - &ref_98
+        title: yikm
+        icon: faicon
+        url: https://www.yikm.net/
+        id: 1_1138_yikm
+      - &ref_99
+        title: poki
+        icon: favicon
+        url: https://poki.com/zh/html5
+        id: 2_1138_poki
+    filteredItems:
+      - *ref_97
+      - *ref_98
+      - *ref_99
