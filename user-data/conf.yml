@@ -6,7 +6,7 @@ pageInfo:
       path: https://github.com/lovebai
       target: newtab
     - title: Blog
-      path: https://obai.cc
+      path: https://ucds.me
       target: newtab
 appConfig:
   theme: nord
@@ -113,13 +113,13 @@ sections:
       - &ref_8
         title: BitWarden
         icon: hl-bitwarden
-        url: https://b.obai.cc/
+        url: https://v.ucds.me/
         target: newtab
         id: 8_118154_bitwarden
       - &ref_9
         title: Nezha
         icon: favicon
-        url: https://n.obai.cc/
+        url: https://nezha.051214.xyz/
         id: 9_118154_nezha
       - &ref_10
         title: CFNav
@@ -224,11 +224,11 @@ sections:
       hideForGuests: false
     items:
       - &ref_21
-        title: RGB255
-        icon: https://obai.cc/favicon.ico
-        url: https://obai.cc/
+        title: DaBai
+        icon: favicon
+        url: https://ucds.me/
         target: newtab
-        id: 0_44796_rgb
+        id: 0_44796_dabai
       - &ref_22
         title: 酷酷的白
         icon: https://bducds.com/ico
@@ -378,13 +378,13 @@ sections:
       - &ref_42
         title: Filelist
         icon: favicon
-        url: https://a.obai.cc/
+        url: https://ol.bducds.de/
         target: newtab
         id: 0_90237_filelist
       - &ref_43
         title: CloudFile
         icon: favicon
-        url: https://c.obai.cc/
+        url: https://cr.bducds.de/
         target: newtab
         id: 1_90237_cloudfile
       - &ref_44
@@ -408,7 +408,7 @@ sections:
       - &ref_45
         title: 小白图床
         icon: favicon
-        url: https://i.obai.cc/
+        url: https://i.051214.xyz/
         target: newtab
         id: 0_46472_
       - &ref_46
@@ -551,23 +551,16 @@ sections:
         target: newtab
         id: 3_41036_xiaobaiapi
       - &ref_66
-        title: 极速箱
-        icon: favicon
-        url: https://d.obai.cc/
-        target: newtab
-        id: 4_41036_
-      - &ref_67
         title: Alger Music
         icon: icon
         url: http://mc.alger.fun/#/
-        id: 5_41036_algermusic
+        id: 4_41036_algermusic
     filteredItems:
       - *ref_62
       - *ref_63
       - *ref_64
       - *ref_65
       - *ref_66
-      - *ref_67
   - name: Ai
     icon: far fa-comments-alt
     displayData:
@@ -577,68 +570,74 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_68
+      - &ref_67
         title: ChatGpt
         icon: hl-chatgpt
         url: https://chatgpt.com/
         id: 0_170_chatgpt
-      - &ref_69
+      - &ref_68
         title: DuckDuckGo AI
         icon: hl-duckduckgo
         url: https://duckduckgo.com/?q=DuckDuckGo&ia=chat
         id: 1_170_duckduckgoai
-      - &ref_70
+      - &ref_69
         title: Gemini
         icon: favicon
         url: https://gemini.google.com/
         id: 2_170_gemini
-      - &ref_71
+      - &ref_70
         title: 百度AI
         icon: favicon
         url: https://chat.baidu.com/
         id: 3_170_ai
-      - &ref_72
+      - &ref_71
         title: 提示词优化
         icon: hl-openai
         url: https://prompt.always200.com/
         id: 4_170_
-      - &ref_73
+      - &ref_72
         title: DeepSeek
         icon: favicon
         url: https://chat.deepseek.com/
         id: 5_170_deepseek
-      - &ref_74
+      - &ref_73
         title: NextChat
         icon: favicon
         url: https://chat.yourfather.eu.org/
         id: 6_170_nextchat
-      - &ref_75
+      - &ref_74
         title: LobeChat
         icon: favicon
         url: https://yourmather.eu.org/
         id: 7_170_lobechat
-      - &ref_76
+      - &ref_75
         title: Grok
         icon: favicon
         url: https://grok.com/
         id: 8_170_grok
-      - &ref_77
+      - &ref_76
         title: Openrouter
         icon: favicon
         url: https://openrouter.ai/
         id: 9_170_openrouter
-      - &ref_78
+      - &ref_77
         title: One Api
-        icon: https://i.obai.cc/i/logo.svg
-        url: https://api.obai.cc/
+        icon: https://i.051214.xyz/i/logo.svg
+        url: https://api.bducds.de/
         id: 10_170_oneapi
-      - &ref_79
+      - &ref_78
         title: copilot
         icon: favicon
         url: >-
           https://copilot.cloud.microsoft/?fromCode=cmcv2&redirectId=553232069B274418B8191DC48F0016A3&auth=2
         id: 11_170_copilot
+      - &ref_79
+        title: 豆包ai
+        icon: favicon
+        url: https://www.doubao.com/chat/
+        id: 12_170_ai
     filteredItems:
+      - *ref_67
       - *ref_68
       - *ref_69
       - *ref_70
@@ -747,12 +746,12 @@ sections:
       - &ref_93
         title: Uptime kuma
         icon: favicon
-        url: https://status.19981115.xyz/
+        url: https://status.bducds.com/
         id: 3_114612_uptimekuma
       - &ref_94
         title: Luxirty Search
-        icon: https://e.obai.cc/favicon.ico
-        url: https://e.obai.cc/
+        icon: https://to-search.netlify.app/favicon.ico
+        url: https://to-search.netlify.app/
         id: 4_114612_luxirtysearch
     filteredItems:
       - *ref_90
