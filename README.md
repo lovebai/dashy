@@ -198,7 +198,7 @@ Both sections and items can have an icon associated with them, defined under the
 
 The following icon types are supported:
 - **Favicon** - Automatically fetch an apps icon from its Favicon or logo image
-- **Icon Packs** - Use any icon from [font-awesome], [simple-icons] or [material icons]
+- **Icon Packs** - Use any icon from [font-awesome], [simple-icons], [selfh.st/icons], or [material icons]
 - **Emoji** - Any valid emoji can be used as an icon
 - **Generative** - Unique, auto-generated images for easily identifying services
 - **URL** - Pass the URL of any valid image in to have it fetched and rendered
@@ -209,6 +209,7 @@ The following icon types are supported:
 [font-awesome]: https://fontawesome.com/icons
 [simple-icons]: https://simpleicons.org/
 [material icons]: https://github.com/Templarian/MaterialDesign
+[selfh.st/icons]: https://selfh.st/icons
 [dashboard-icons]: https://github.com/WalkxCode/dashboard-icons
 
 
@@ -417,13 +418,14 @@ Dashy supports multiple languages and locales. When available, your language sho
 - 🇵🇱 **Polish**: `pl` - Contributed by **[@skaarj1989](https://github.com/skaarj1989)**
 - 🇵🇹 **Portuguese**: `pt` - Contributed by **[@LeoColman](https://github.com/LeoColman)**
 - 🛰️ **Galician**: `gl` - Contributed by **[@pvillaverde](https://github.com/pvillaverde)**
-- 🇷🇺 **Russian**: `ru` - _Auto-generated_
+- 🇷🇺 **Russian**: `ru` -Contributed by **[@sasetz](https://github.com/sasetz)**
 - 🇸🇰 **Slovak**: `sk` - Contributed by **[@Smexhy](https://github.com/Smexhy)**
 - 🇸🇮 **Slovenian**: `sl` - Contributed by **[@UrekD](https://github.com/UrekD)**
 - 🇪🇸 **Spanish**: `es` - Contributed by **[@lu4t](https://github.com/lu4t)**
 - 🇸🇪 **Swedish**: `sv` - Contributed by **[@BOZG](https://github.com/BOZG)**
 - 🇹🇼 **Traditional Chinese**: `zh-TW` - Contributed by **[@stanly0726](https://github.com/stanly0726)**
 - 🇹🇷 **Turkish**: `tr` - Contributed by **[@imsakg](https://github.com/imsakg)**
+- 🇺🇦 **Ukrainian**: `uk` - Contributed by **[@allozavrr](https://github.com/allozavrr)**
 - 🏴‍☠️ **Pirate**: `pirate` - Contributed by **[@Lissy93](https://github.com/lissy93)**
 
 #### Add your Language
@@ -533,6 +535,13 @@ Huge thanks to the sponsors helping to support Dashy's development!
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/anivar">
+            <img src="https://avatars.githubusercontent.com/u/422943?u=cdf8a8b22ffbfc018b7dd9aae8220902394d01e7&v=4" width="80;" alt="anivar"/>
+            <br />
+            <sub><b>Anivar Aravind</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/BrianCurliss">
             <img src="https://avatars.githubusercontent.com/u/1222949?v=4" width="80;" alt="BrianCurliss"/>
             <br />
@@ -558,13 +567,6 @@ Huge thanks to the sponsors helping to support Dashy's development!
             <img src="https://avatars.githubusercontent.com/u/5110813?u=3c41facd8aa26154b9451de237c34b0f78d672a5&v=4" width="80;" alt="UlisesGascon"/>
             <br />
             <sub><b>Ulises Gascón</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/digitalarche">
-            <img src="https://avatars.githubusercontent.com/u/6546135?u=564756d7f44ab2206819eb3148f6d822673f5066&v=4" width="80;" alt="digitalarche"/>
-            <br />
-            <sub><b>Digital Archeology</b></sub>
         </a>
     </td></tr>
 <tr>
@@ -644,6 +646,13 @@ Huge thanks to the sponsors helping to support Dashy's development!
             <img src="https://avatars.githubusercontent.com/u/173822055?u=4d323807f120b34da9b156bfd168b46a22844764&v=4" width="80;" alt="gl0bal01"/>
             <br />
             <sub><b>Gl0bal01 💖 龴ↀ◡ↀ龴</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/phishdestroy">
+            <img src="https://avatars.githubusercontent.com/u/208413058?u=d2a7f07fdebe6bdbde4b3141ca3ab958fbf0bae9&v=4" width="80;" alt="phishdestroy"/>
+            <br />
+            <sub><b>PhishDestroy</b></sub>
         </a>
     </td></tr>
 </table>
